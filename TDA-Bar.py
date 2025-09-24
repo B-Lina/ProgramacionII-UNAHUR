@@ -136,14 +136,14 @@ class BarUnahur:
         return "Ventas totales reiniciadas."
 
 # Example usage with the new methods
-compras1 = BarUnahur("EstudiantE", 0, 3)
+compras1 = BarUnahur("EstudiantE", 0, 2)
 compras1.ingresarCompra()
 print(compras1.mostrarCompra())
 #print(compras1.ventasTotales())
 
 print("---")
 
-compras2 = BarUnahur("Docente", 0, 2)
+compras2 = BarUnahur("Docente", 0, 3)
 compras2.ingresarCompra()
 #print(compras2.mostrarCompra())
 print(compras2.ventasTotales())
