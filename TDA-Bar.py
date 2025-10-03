@@ -131,7 +131,6 @@ class BarUnahur:
         return f"Ventas totales: {BarUnahur.total_ventas}"
 
     def limpiar_ventas(self):
-        """Resets the total sales count to zero."""
         BarUnahur.total_ventas = 0
         return "Ventas totales reiniciadas."
 
